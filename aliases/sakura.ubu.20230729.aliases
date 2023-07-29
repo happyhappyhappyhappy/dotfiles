@@ -37,5 +37,4 @@ alias sai="sudo apt install -y"
 alias sau="sudo apt update"
 alias update="sudo apt update -qq"
 alias upgrade="sudo apt upgrade -y"
-
 alias dg++="g++ -D LOCAL -Wall"
