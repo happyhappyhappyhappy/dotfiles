@@ -1,3 +1,6 @@
+# my.rh.aliases
+# redhat系のLinux(AlmaLinux,Cent,Fedora)のaliases詰め合わせ
+# 最終更新 2023-07-30 16:57:45
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
