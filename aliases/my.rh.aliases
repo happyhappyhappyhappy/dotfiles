@@ -32,11 +32,10 @@ alias bye="exit"
 alias die="exit"
 alias quit="exit"
 
-
-alias sai="sudo apt install -y"
-alias sau="sudo apt update"
-alias update="sudo apt update -qq"
-alias upgrade="sudo apt upgrade -y"
+alias sai="sudo dnf install -y"
+alias sau="sudo dnf update"
+alias update="sudo dnf update -qq"
+alias upgrade="sudo dnf upgrade -y"
 
 alias dgpp="g++ -D LOCAL -Wall"
 alias nowip='curl ifconfig.me'
