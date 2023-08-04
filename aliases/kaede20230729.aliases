@@ -45,3 +45,5 @@ alias psfree2="ps auwfux | less -S"
 alias sshagent="exec ssh-agent $SHELL"
 # atcoderg++ 本番環境用
 alias atcoderg++="g++ -std=gnu++17 -Wall -Wextra -O2"
+# my-ulimit atcoder用本番環境 最大メモリサイズ
+alias myulimit="ulimit -S -s 1048576"
