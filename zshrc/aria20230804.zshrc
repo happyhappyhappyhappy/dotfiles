@@ -11,7 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 ZSH_THEME=random
 ZSH_THEME_RANDOM_CANDIDATES=(
-# "eastwood" \ 除外2023-08-03 12:13:31
+"eastwood" \
 "simple" \
 "lukerandall" \
 "gozilla" \
@@ -97,7 +97,6 @@ fzf \
 python \
 toolbox \
 vscode \
-zsh-autosuggestions \
 )
 source $ZSH/oh-my-zsh.sh
 
