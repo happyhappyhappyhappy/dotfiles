@@ -84,6 +84,10 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# plugins=(
+#     git \
+#     dnf \
+#     )
 plugins=(git \
 sudo \
 zsh-interactive-cd \
@@ -99,6 +103,7 @@ toolbox \
 vscode \
 zsh-autosuggestions \
 )
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -126,12 +131,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-[[ -s /home/aria/.autojump/etc/profile.d/autojump.sh ]] && source /home/aria/.autojump/etc/profile.d/autojump.sh
+ [[ -s /home/mariko/.autojump/etc/profile.d/autojump.sh ]] && source /home/mariko/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
+source ~/.dotfiles/aliases/my.rh.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
 eval "$(zoxide init zsh)"
+
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
-source ~/.dotfiles/aliases/my.rh.aliases
