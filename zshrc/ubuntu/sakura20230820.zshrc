@@ -83,21 +83,8 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(git ubuntu zsh-docker-aliases)
-plugins=(git \
-sudo \
-zsh-interactive-cd \
-ubuntu \
-alias-finder \
-aliases \
-autojump \
-command-not-found \
-cp \
-fzf \
-python \
-toolbox \
-vscode \
-)
+plugins=(git ubuntu zsh-docker-aliases)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -127,14 +114,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/my.aliases
 source ~/sakura_docker/docker.aliases
-export LANG=ja_JP.UTF-8
-export LANGUAGE=ja_JP.UTF-8
-export LC_ALL=ja_JP.UTF-8
-[[ -s /home/sakura/.autojump/etc/profile.d/autojump.sh ]] && source /home/sakura/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
-eval "$(zoxide init zsh)"
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
