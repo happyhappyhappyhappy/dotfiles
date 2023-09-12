@@ -17,7 +17,7 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 "gozilla" \
 "kphoen" \
 # "jonathan" \ フルパス長い 除外2023-06-24 15:55:24
-"minimal" \
+"minimal" \    # これは良し2023-09-12 19:26:34
 "gnzh" \
 "nanotech" \
 # "agnoster" \ フルパス長い 除外2023-06-24 15:55:40
