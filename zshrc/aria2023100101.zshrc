@@ -1,7 +1,6 @@
-# 変更履歴
-# 20231001_01 themaの各設定 「/」 以降に 「＃ コメントアウト」を用いると 空白テーマを作ろうとする
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -12,14 +11,13 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 ZSH_THEME=random
 ZSH_THEME_RANDOM_CANDIDATES=(
-# "eastwood" \ フルパス長い除外2023-09-09 19:25:06
-# "simple" \ 思ったほどシンプルでは無い 処す2023-09-12 19:24:29
+# "eastwood" \ 除外2023-08-03 12:13:31
+"simple" \
 "lukerandall" \
 "gozilla" \
 "kphoen" \
 # "jonathan" \ フルパス長い 除外2023-06-24 15:55:24
 "minimal" \
-# ↑これは良し2023-09-12 19:26:34 → 行を変えた
 "gnzh" \
 "nanotech" \
 # "agnoster" \ フルパス長い 除外2023-06-24 15:55:40
@@ -86,7 +84,6 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(git)
 plugins=(git \
 sudo \
 zsh-interactive-cd \
@@ -102,7 +99,6 @@ toolbox \
 vscode \
 zsh-autosuggestions \
 )
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -130,16 +126,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/my.rh.aliases
-
 [[ -s /home/aria/.autojump/etc/profile.d/autojump.sh ]] && source /home/aria/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
 eval "$(zoxide init zsh)"
-
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
-export PYTHONDONTWRITEBYTECODE=1
-
+source ~/.dotfiles/aliases/my.rh.aliases
