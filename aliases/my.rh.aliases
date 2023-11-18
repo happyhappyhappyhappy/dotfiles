@@ -40,7 +40,7 @@ alias sau="sudo dnf update"
 alias update="sudo dnf update -qq"
 alias upgrade="sudo dnf upgrade -y"
 
-alias dgpp="g++ -D LOCAL -Wall"
+alias dgpp="g++ -D LOCAL -Wall -I /wrk/sakura-cpp/comp_pro/ACL"
 alias nowip='curl ifconfig.me'
 alias psfree2='ps auwfux | less -S'
 
