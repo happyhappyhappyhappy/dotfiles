@@ -130,8 +130,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/my.rh.aliases
-
+# source ~/my.rh.aliases
+source ~/dotfiles/aliases/my.rh.aliases
 [[ -s /home/aria/.autojump/etc/profile.d/autojump.sh ]] && source /home/aria/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
