@@ -19,6 +19,8 @@ alias lS="ls -lhGgoSr"
 alias lhead="ls -lhGgo | head"
 alias ltail="ls -lhGgo | tail"
 alias lmore='ls -lhGgo | more'
+# 追加 2023-11-25 19:36:30
+alias lf="ls -Flag"
 
 function mcd { mkdir -p "$1" && cd "$1";}
 alias showpath='echo $PATH | tr ":" "\n" | nl'
