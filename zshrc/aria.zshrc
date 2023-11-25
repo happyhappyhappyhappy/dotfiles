@@ -1,5 +1,6 @@
 # 変更履歴
 # 20231001_01 themaの各設定 「/」 以降に 「＃ コメントアウト」を用いると 空白テーマを作ろうとする
+# 20231125_01 aliasとしてls=exaを設定。尚、これはexaをインストールした後にコメントアウトすること
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
@@ -143,3 +144,4 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export PYTHONDONTWRITEBYTECODE=1
 export LC_ALL="ja_JP.UTF-8"
+# alias ls="exa"
