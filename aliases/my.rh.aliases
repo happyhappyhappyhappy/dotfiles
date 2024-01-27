@@ -42,13 +42,13 @@ alias sau="sudo dnf update"
 alias update="sudo dnf update -qq"
 alias upgrade="sudo dnf upgrade -y"
 
-alias dgpp="g++ -std=gnu++20 -D LOCAL -Wall -I /wrk/sakura-cpp/comp_pro/ACL"
+alias dgpp="g++ -D LOCAL -Wall -I /wrk/sakura-cpp/comp_pro/ACL"
 alias nowip='curl ifconfig.me'
 alias psfree2='ps auwfux | less -S'
 
 alias sshagent='exec ssh-agent $SHELL'
 # 本番環境用実行コマンド
-alias mgpp="g++ -std=gnu++20 -Wall -Wextra -O2"
+alias mgpp="g++ -std=gnu++17 -Wall -Wextra -O2"
 
 alias httpserver="python3 -m http.server"
 # atcoder ulimit
