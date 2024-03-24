@@ -53,3 +53,5 @@ alias mgpp="g++ -std=gnu++20 -Wall -Wextra -O2"
 alias httpserver="python3 -m http.server"
 # atcoder ulimit
 alias myulimit="ulimit -S -s 1048576"
+# python3 3char
+alias py3="python3"
