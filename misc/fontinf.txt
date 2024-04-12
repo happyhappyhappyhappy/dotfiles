@@ -1,0 +1,18 @@
+デフォルトVSC全選択
+JetBrains Mono, Consolas, 'Courier New', monospace,"0xProto",
+Fira code,"Ricty Diminished Regular","UDEV Gothic JPDOC",
+UDEV Gothic NF
+
+プログラミング
+UDEV Gothic NF
+JetBrains Mono ExtraLight
+"0xProto"
+Fira Code Retina
+
+日本語
+Ricty Diminished
+HackGen35
+UDEV Gothic JPDOC
+HackGen35 Console
+
+pypy3_aria
