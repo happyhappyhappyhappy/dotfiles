@@ -3,6 +3,9 @@ JetBrains Mono, Consolas, 'Courier New', monospace,"0xProto",
 Fira code,"Ricty Diminished Regular","UDEV Gothic JPDOC",
 UDEV Gothic NF
 
+pypy3_aria workspace
+"0xProto",Fira code, UDEV Gothic JPDOC,"Source Han Code JP", Consolas, 'Courier New', monospace
+
 プログラミング
 UDEV Gothic NF
 JetBrains Mono ExtraLight
