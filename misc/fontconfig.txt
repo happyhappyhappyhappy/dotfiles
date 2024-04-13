@@ -3,10 +3,13 @@ JetBrains Mono, Consolas, 'Courier New', monospace,"0xProto",
 Fira code,"Ricty Diminished Regular","UDEV Gothic JPDOC",
 UDEV Gothic NF
 
-pypy3_aria workspace
+pypy3_aria > workspace > pythoncode
 # "0xProto", リガチャーが効かない
-Fira code, UDEV Gothic JPDOC,"Source Han Code JP", Consolas, 'Courier New', monospace
+# Fira code 第2候補に移動
+JetBrains Mono ExtraLight,Fira code, UDEV Gothic JPDOC,"Source Han Code JP", Consolas, 'Courier New', monospace
 
+pypy3_aria > workspace
+"0xProto",Fira code, "Ricty Diminished Regular",UDEV Gothic JPDOC,JetBrains Mono, HackGen, Consolas, 'Courier New', monospace
 プログラミング
 UDEV Gothic NF
 JetBrains Mono ExtraLight
