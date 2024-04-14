@@ -5,7 +5,8 @@ UDEV Gothic NF
 
 pypy3_aria > workspace > pythoncode
 # "0xProto", リガチャーが効かない
-# Fira code 第2候補に移動
+# Fira code 第2候補に移動->やっぱりダメ 先頭に移動
+# JetBrains Mono [ExtraLight]はさすがにガチガチで見にくい
 JetBrains Mono ExtraLight,Fira code, UDEV Gothic JPDOC,"Source Han Code JP", Consolas, 'Courier New', monospace
 
 pypy3_aria > workspace
