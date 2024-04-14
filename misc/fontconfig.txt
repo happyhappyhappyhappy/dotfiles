@@ -12,9 +12,10 @@ pypy3_aria > workspace
 "0xProto",Fira code, "Ricty Diminished Regular",UDEV Gothic JPDOC,JetBrains Mono, HackGen, Consolas, 'Courier New', monospace
 プログラミング
 UDEV Gothic NF
-JetBrains Mono ExtraLight
-"0xProto"
-Fira Code Retina
+JetBrains Mono ExtraLight -> 普通の方が見やすい
+JetBrains は 0 に線が入らない
+"0xProto" -> リガチャーが効かない
+Fira Code Retina -> 今これを使っている
 
 日本語
 Ricty Diminished
